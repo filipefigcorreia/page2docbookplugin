@@ -3,13 +3,14 @@
 A Trac plugin to export wiki pages as docbook documents.
 
 This plugin used to lived at http://trac-hacks.org/wiki/Page2DocbookPlugin
+
 That is still where to get the latest egg (0.6.3).
 
 == Installation ==
 
 This plugin was tested with Trac versions 0.10, 0.11 and 0.12.
 Please ensure the following python modules are installed before installing this plugin:
- * python-uTidyLib (note: if you're using a 64bit OS, you may need [https://github.com/lachlan-00/utidylib2 this fork ], or more specifically, this [http://developer.berlios.de/bugs/?func=detailbug&bug_id=14691&group_id=1810 this patch])
+ * python-uTidyLib (note: if you're using a 64bit OS, you may need [[https://github.com/lachlan-00/utidylib2 | this fork ]], or more specifically, this [][http://developer.berlios.de/bugs/?func=detailbug&bug_id=14691&group_id=1810 | this patch]]).
  * python-libxml2
  * python-libxslt
 
@@ -25,4 +26,4 @@ This script is currently mostly undocumented, but I believe it is simple enough 
 
 == Credits ==
 
-This plugin was authored by Filipe Correia. Additional credits go to [[http://osteele.com/ | Oliver Steele]] for his [[http://osteele.com/software/xslt/html2db/ | html2db]] stylesheets.
+This plugin was authored by [[https://github.com/filipefigcorreia | Filipe Correia]]. Additional credits go to [[http://osteele.com/ | Oliver Steele]] for his [[http://osteele.com/software/xslt/html2db/ | html2db]] stylesheets.
