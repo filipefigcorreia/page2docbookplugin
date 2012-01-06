@@ -1,0 +1,28 @@
+= Page2Docbook =
+
+A Trac plugin to export wiki pages as docbook documents.
+
+This plugin used to lived at http://trac-hacks.org/wiki/Page2DocbookPlugin
+That is still where to get the latest egg (0.6.3).
+
+== Installation ==
+
+This plugin was tested with Trac versions 0.10, 0.11 and 0.12.
+Please ensure the following python modules are installed before installing this plugin:
+ * python-uTidyLib (note: if you're using a 64bit OS, you may need [https://github.com/lachlan-00/utidylib2 this fork ], or more specifically, this [http://developer.berlios.de/bugs/?func=detailbug&bug_id=14691&group_id=1810 this patch])
+ * python-libxml2
+ * python-libxslt
+
+Refer to the [[http://trac.edgewall.org/search?q=TracPlugins | Trac plugin documentation]] for details on how to build and install plugins and macros.
+
+After installing, a new alternative format should appear on the bottom of each wiki page, next to the "Plain Text" link.
+
+== Companion Script ==
+
+There's a [[source:page2docbookplugin/page-retriever/getDocbookDocuments.py | companion python script]] that retrieves all the docbook files for a given set of wiki pages. It saves the docbook files to the local computer, along with any attached image file, making them ready for processing with [http://wiki.docbook.org/topic/DocBookPublishingTools any other tool that receives docbook as input].
+
+This script is currently mostly undocumented, but I believe it is simple enough to be easily understood.
+
+== Credits ==
+
+This plugin was authored by Filipe Correia. Additional credits go to [[http://osteele.com/ | Oliver Steele]] for his [[http://osteele.com/software/xslt/html2db/ | html2db]] stylesheets.
