@@ -20,7 +20,7 @@ After installing, a new alternative format should appear on the bottom of each w
 
 == Companion Script ==
 
-There's a [[source:page2docbookplugin/page-retriever/getDocbookDocuments.py | companion python script]] that retrieves all the docbook files for a given set of wiki pages. It saves the docbook files to the local computer, along with any attached image file, making them ready for processing with [[http://wiki.docbook.org/topic/DocBookPublishingTools | any other tool that receives docbook as input]].
+There's a [[https://github.com/filipefigcorreia/page2docbookplugin/page-retriever/getDocbookDocuments.py | companion python script]] that retrieves all the docbook files for a given set of wiki pages. It saves the docbook files to the local computer, along with any attached image file, making them ready for processing with [[http://wiki.docbook.org/topic/DocBookPublishingTools | any other tool that receives docbook as input]].
 
 This script is currently mostly undocumented, but I believe it is simple enough to be easily understood.
 
